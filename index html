@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMKN 9 Medan</title>
+  <!-- Link CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <h1 class="logo">SMKN 9 Medan</h1>
+    <nav class="nav">
+      <a id="backBtn">Kembali</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="content">
+    <h2>Tipografi</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <p>
+      Paragraf biasa. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Iste, quo. Voluptatum magnam eligendi quasi nobis cum sequi adipisci est 
+      porro recusandae nihil illum quis nulla eos, aliquid dolorem ratione corporis.
+    </p>
+    
+    <h3>Warna HSL</h3>
+    <div class="warna-box">
+      <span class="primary">Primary</span>
+      <span class="secondary">Secondary</span>
+      <span class="accent">Accent</span>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Wulan Imut</p>
+  </footer>
+
+  <!-- Link JS eksternal -->
+  <script src="script.js"></script>
+</body>
+</html>
