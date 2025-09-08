@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Header */
+.site-header {
+  background: #ff66b2; /* Pink */
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .logo {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.site-header .nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Content */
+.content {
+  padding: 30px;
+}
+.content h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+.content h2 {
+  font-size: 26px;
+  margin: 10px 0;
+  color: #555;
+}
+.content h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.content p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Box Warna */
+.warna-box {
+  margin-top: 20px;
+}
+.warna-box span {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+.warna-box span:hover {
+  transform: scale(1.1);
+}
+.primary {
+  background: hsl(330, 80%, 60%);
+}
+.secondary {
+  background: hsl(320, 40%, 40%);
+}
+.accent {
+  background: hsl(340, 90%, 50%);
+}
+
+/* Footer */
+.site-footer {
+  background: #ff66b2; /* Pink */
+  color: white;
+  text-align: left;
+  padding: 10px 30px;
+  font-size: 14px;
+}
