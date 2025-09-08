@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Guide - SMKN 9 Medan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="content">
+    <h1>Style Guide</h1>
+
+    <!-- Tipografi -->
+    <section>
+      <h2>Tipografi</h2>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <p>Paragraf biasa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </section>
+
+    <!-- Warna -->
+    <section>
+      <h2>Warna</h2>
+      <div class="warna-box">
+        <span class="primary">Primary</span>
+        <span class="secondary">Secondary</span>
+        <span class="accent">Accent</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
